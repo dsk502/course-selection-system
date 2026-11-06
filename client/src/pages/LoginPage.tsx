@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {login} from "../api/auth.ts";
 
-import "./LoginPage.css";
+import "../assets/css/LoginPage.css";
 
 function LoginPage() {
   const navigate = useNavigate();
